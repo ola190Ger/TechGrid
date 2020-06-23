@@ -1,0 +1,31 @@
+.navbar
+    position: fixed
+    left: 0
+    top: 0
+    width: 100%
+    background-color: #fff
+    &-wrap
+        display: flex
+        align-items: center
+        justify-content: space-between
+        min-height: 80px
+    &__about, &__process, &__portfolio
+        display: block
+        font-size: 19px
+        +bold
+        & a 
+            text-decoration: none
+
+
+.logo
+    &__text
+        display: block
+        margin-bottom: 5px
+        font-size: 18px
+        text-transform: uppercase
+        +bold
+    &__description
+        display: block
+        font-size: 14px
+        text-align: center
+        color: $text-color-light

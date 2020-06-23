@@ -1,1 +1,117 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Semibold';
+  src: url("../fonts/ProximaNova-Semibold.eot");
+  src: url("../fonts/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Semibold.woff") format("woff"), url("../fonts/ProximaNova-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url("../fonts/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Proxima Nova Regular', sans-serif;
+  color: #023eba;
+}
+
+.btn__email {
+  border: 2px solid #023eba;
+  padding: 17px 22px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #023eba;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+}
+
+.btn__email a {
+  text-decoration: none;
+}
+
+.btn {
+  text-transform: uppercase;
+  padding: 25px 45px;
+  background-color: #023eba;
+  color: #fff;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.navbar-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 80px;
+}
+
+.navbar__about, .navbar__process, .navbar__portfolio {
+  display: block;
+  font-size: 19px;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+}
+
+.navbar__about a, .navbar__process a, .navbar__portfolio a {
+  text-decoration: none;
+}
+
+.logo__text {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+}
+
+.logo__description {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  color: #00d4b8;
+}
+
+.hero {
+  background: #f1f1f1 url("../img/hero/heroo-bg.jpg") no-repeat center top 80px;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 270px;
+}
+
+.hero__titel {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.hero__subtitle {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 67px;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
