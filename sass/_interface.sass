@@ -1,7 +1,15 @@
 body
   +regular
   color: $text-color
-
+.section
+  padding: 100px 0
+  &-title
+    font-size: 30px
+    +bold
+    text-align: center
+    text-transform: uppercase
+  &__title
+    margin-bottom: 100px
 .btn__email
   border: 2px solid $text-color
   padding: 17px 22px
@@ -28,6 +36,10 @@ body
   border: 0.1px solid #dddddd
   padding-left: 30px
 
+  &:focus, 
+    border: 3px solid blue
+    box-shadow: 1px 1px 2px 0px blue
+
 .checkbox
   display: none
   &:checked + label:before
@@ -51,3 +63,9 @@ body
 @media ( max-width: 576px)
     .btn__email
         font-size: 12px
+
+    .section
+      padding: 60px 0
+      &-title
+        font-size: 24px
+  
