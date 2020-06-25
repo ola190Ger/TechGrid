@@ -179,6 +179,7 @@ img {
   top: 0;
   width: 100%;
   background-color: #fff;
+  z-index: 99;
 }
 
 .navbar-wrap {
@@ -377,6 +378,21 @@ img {
     width: 100%;
   }
   .form__input {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  __row-checkbox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  __checkbox {
     margin-bottom: 20px;
   }
 }
